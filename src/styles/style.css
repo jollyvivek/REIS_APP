@@ -1,0 +1,154 @@
+
+.nav-cont{
+  width: 100%;
+  /* background:transparent;
+  background: white; */
+  color:black;
+  padding: 10px 0;
+  position:sticky;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+  width: 100%;
+  max-width:20rem;
+}
+
+.logoText{
+  font-weight: bolder !important;
+}
+
+.menu-cont{
+  display: flex;
+  /* justify-content: center; */
+  /* flex: 1; */
+  gap: 2rem;
+}
+
+.nav-link{
+  display: inline-block;
+  font-size:1.1rem;
+  margin: 5px 15px;
+}
+
+.HamberMenu-cont{
+ display: none;
+}
+
+.Hamber-menu{
+  cursor: pointer;
+  /* display: none; */
+}
+
+.dark-nav{
+  background: #212EA0;
+  color: white;
+  transition: 0.5s ease-in-out;
+}
+
+
+/* hero */
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../src//assets/hero2.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (max-width:768px) {
+
+
+
+.menu-cont{
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  right:0;
+  background-color:#666666;
+  z-index: -1;
+  transition: 0.5s ease-in-out;
+  width: 15rem;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0;
+  padding-top: 3rem;
+}
+.mobile-menu{
+  right:-15rem;
+}
+
+.HamberMenu-cont{
+  display: block;
+}
+
+.logo{
+  max-width: 18rem;
+}
+
+}
+
+@media (max-width:576px) {
+  .logo{
+    max-width: 15rem;
+  }
+}
+
+@media (max-width:425px) {
+  .logo{
+    max-width: 12rem;
+  }
+
+  .menu-cont{
+    width:12rem;
+  }
+}
+
+/* footer */
+
+.footer-logo{
+  width: 100%;
+  max-width: 20rem;
+}
+
+.fotter-middle{
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  outline: none;
+}
+
+.fopter-link{
+  text-decoration: none;
+  outline: none;
+  color: #666666;
+  opacity: 0.9;
+}
+
+.fopter-link:hover{
+  opacity: 1;
+}
+
+.media-icon{
+  opacity: 0.8;
+  cursor: pointer;
+  font-size: 1.3rem;
+  
+}
+
+.media-icon:hover{
+  opacity: 1;
+}
