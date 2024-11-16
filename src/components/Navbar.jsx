@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/style.css'
-import Logo from '../assets/svg (1).svg'
+import Logo from '../assets/svg.svg'
 import { Link } from 'react-router-dom'
 import { TiThMenu } from "react-icons/ti";
 import { ImCross } from "react-icons/im";
