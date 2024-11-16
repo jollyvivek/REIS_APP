@@ -80,6 +80,12 @@
 
 /* contact */
 
+/* about */
+
+.history-desc{
+  text-align: justify;
+}
+
 
 @media (max-width:768px) {
 
@@ -178,9 +184,9 @@
   /* border:2px solid red; */
 
   & h2{
-    font-size: 32px;
+    font-size:26px;
     color: #000f3b;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     text-transform: none;
   }
 }

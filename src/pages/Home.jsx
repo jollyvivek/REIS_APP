@@ -22,7 +22,7 @@ const Home = () => {
                 </div>
             </div>
             <div className='col-md-6 mt-3'>
-                <img className='img-fluid' src={WelcomeImg} alt="" />
+                <img className='img-fluid rounded-3' src={WelcomeImg} alt="" />
             </div>
       </div>
     </div>

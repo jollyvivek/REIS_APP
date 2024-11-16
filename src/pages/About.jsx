@@ -1,5 +1,6 @@
 import React from 'react'
 import profileImg from '../assets/AboutImage.jpeg'
+import Title from '../components/Title'
 
 const About = () => {
   return (
@@ -26,6 +27,65 @@ const About = () => {
             </div>
             <div className='col-md-6 mt-3 text-center'>
                 <img className='img-fluid rounded-4' src={profileImg} alt="" />
+            </div>
+            {/* history */}
+            <div className='row'>
+                <div className='col-md-12'>
+                    <Title title="HISTORY" subTitle="ABOUT COMPANY HISTORY"/>
+                    <p className='history-desc'>Founded by <span className='text-info fw-bold'>Heena Gupta</span>, a professional with over 15 years of experience
+                        in international education and student visa consultancy,Rhombus Education and Immigration Services was born out of 
+                        a desire to make the study-abroad process easier and more accessible for students worldwide. Over the years, we have
+                         successfully assisted countless students in securing placements in top universities across the UK, Canada, Australia,
+                        and more, while ensuring they receive the proper guidance and support throughout their visa application process.
+                    </p>
+                    <p className='history-desc'>Our team has grown with the times, constantly updating our practices to stay ahead of evolving immigration regulations 
+                        and educational trends.With certifications from both the British Council, we are proud to be a trusted partner for both
+                        students and education agents.
+                    </p>
+                </div>
+            </div>
+            {/* mission */}
+            <div className='row'>
+                <div className='col-md-12'>
+                    <Title title="MISSON" subTitle="OUR COMPANY MISSION"/>
+                    <p className='history-desc'>Our mission is simple: to guide students toward a brighter future by making studying abroad an 
+                        achievable and exciting opportunity. We understand the significance of studying internationally and the impact it has 
+                        on personal and professional growth. With a focus on personalized care and expert consultancy, we are dedicated to 
+                        ensuring that every student has a smooth, efficient, and successful journey—from choosing the right university to 
+                        obtaining a student visa.
+                    </p>
+                    <p className='history-desc'>We also offer comprehensive support to education agents, helping them manage their student
+                         clients' applications and visa processes with ease, precision, and trust.
+                    </p>
+                </div>
+            </div>
+            {/* out team */}
+            <div className='row'>
+                <div className='col-md-12'>
+                    <Title title="TEAM" subTitle="OUR COMPANY TEAM"/>
+                    <p className='history-desc'>Our team consists of experienced education consultants, visa specialists, and support staff,
+                         all dedicated to providing exceptional service. Each member of our team shares a passion for education and an 
+                         unwavering commitment to client success. We work collaboratively to ensure that every student receives the best
+                          possible guidance tailored to their individual needs, goals, and circumstances.
+                    </p>
+                    <p className='history-desc'>At Rhombus, we pride ourselves on being more than just a service provider—we are your partner
+                         in the journey toward achieving your educational dreams.
+                    </p>
+                </div>
+            </div>
+            {/* Why choose Us */}
+            <div className='row '>
+                <div className='col-md-12'>
+                    <Title title="WHY CHOOSE US ?" subTitle=""/>
+                    <p className='history-desc'>Over 15 years of expertise in the education and immigration field.
+                        Personalized, one-on-one consultation to cater to each student's unique needs.
+                        Trusted partner of the British Council.
+                        Seamless support throughout the entire process, from university application to student visa approval.
+                    </p>
+                    <p className='history-desc'>Let us help you open doors to global education opportunities. Contact us today to
+                         learn how we can assist you on your path to studying abroad!
+                    </p>
+                </div>
             </div>
         </div>
     </div>

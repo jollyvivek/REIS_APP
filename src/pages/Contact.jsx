@@ -14,7 +14,7 @@ const Contact = () => {
                 <img className='img-fluid rounded-3' src={ContactUsBanner} alt="" />
             </div>
         </div>
-        <Title title="Contact Us" subTitle="Get in Touch"/>
+        <Title title="GET IN TOUCH" subTitle=""/>
         <div className='row'>
             <div className='col-md-6'>
                 <p className='d-flex gap-2  align-items-center fs-4'>
