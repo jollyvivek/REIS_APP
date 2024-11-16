@@ -1,13 +1,14 @@
 import React, { useEffect, useState } from 'react'
 import '../styles/style.css'
 import Logo from '../assets/svg.svg'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
 import { TiThMenu } from "react-icons/ti";
 import { ImCross } from "react-icons/im";
 
 const Navbar = () => {
     const [sticky,setSticky] = useState(false)
     const [mobileMenu,setMobileMenu] = useState(false)
+    const navigate = useNavigate();
     useEffect(()=>{
         window.addEventListener('scroll',()=>{
             window.scrollY > 20 ? setSticky(true):setSticky(false)
@@ -21,7 +22,7 @@ const Navbar = () => {
   return (
     <nav className={`nav-cont common-cont ${sticky ? 'dark-nav' : ''}`}>
           <div className='logo-cont'>
-            <img className='logo' src={Logo} alt="logo" />
+            <img className='logo' src={Logo} alt="logo" onClick={()=>navigate('/')} />
          </div>
           <div className={`menu-cont ${mobileMenu ? "":"mobile-menu"}`}>
             <Link to="/" className='nav-link'>Home</Link>

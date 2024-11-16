@@ -7,13 +7,13 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Contact from './pages/Contact'
 import Services from './pages/Services'
-import Hero from './components/Hero'
+// import Hero from './components/Hero'
 
 const App = () => {
   return (
     <div className=''>
         <Navbar/>
-        <Hero/>
+        {/* <Hero/> */}
     <div>
         <Routes>
             <Route path='/' element={<Home/>}/>

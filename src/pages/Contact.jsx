@@ -1,5 +1,6 @@
 import React from 'react'
 import Title from '../components/Title'
+import ContactUsBanner from '../assets/contactUsImg.jpg'
 import { IoMailOpen } from "react-icons/io5";
 import { IoIosMailUnread } from "react-icons/io";
 import { FaPhoneVolume } from "react-icons/fa6";
@@ -8,6 +9,11 @@ import { FaLocationDot } from "react-icons/fa6";
 const Contact = () => {
   return (
     <div className='container-fluid'>
+        <div className='row'>
+            <div className='col-md-12 contact-banner text-center'>
+                <img className='img-fluid rounded-3' src={ContactUsBanner} alt="" />
+            </div>
+        </div>
         <Title title="Contact Us" subTitle="Get in Touch"/>
         <div className='row'>
             <div className='col-md-6'>
