@@ -35,8 +35,8 @@ const About = () => {
                     <p className='history-desc'>Founded by <span className='text-info fw-bold'>Heena Gupta</span>, a professional with over 15 years of experience
                         in international education and student visa consultancy,Rhombus Education and Immigration Services was born out of 
                         a desire to make the study-abroad process easier and more accessible for students worldwide. Over the years, we have
-                         successfully assisted countless students in securing placements in top universities across the UK, Canada, Australia,
-                        and more, while ensuring they receive the proper guidance and support throughout their visa application process.
+                         successfully assisted countless students in securing placements in top universities across the Australia,UK, Canada,
+                         Europe and more, while ensuring they receive the proper guidance and support throughout their visa application process.
                     </p>
                     <p className='history-desc'>Our team has grown with the times, constantly updating our practices to stay ahead of evolving immigration regulations 
                         and educational trends.With certifications from both the British Council, we are proud to be a trusted partner for both
