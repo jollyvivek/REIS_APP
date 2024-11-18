@@ -14,7 +14,7 @@ const Footer = () => {
     <div className='container-fluid my-3'>
       <div className='row'>
         <div className='col-md-4 mt-3'>
-            <img className='footer-logo' src={logo} alt="" />
+            <img className='logo' src={logo} alt="" />
         </div>
         <div className='col-md-3 mt-3'>
             <h4 className=' py-2 fs-3'>Company</h4>
