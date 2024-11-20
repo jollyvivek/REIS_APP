@@ -54,17 +54,17 @@ const Services = () => {
                 </div>
 
         </div>
-        <div className='row'>
+        <div className='row '>
             <div className='col-md-6 mt-3'>
                 <Title subTitle="Visa Assistance"/>
                 <p>Securing a student visa is a crucial part of studying abroad, and we offer expert visa consultancy to ensure your 
                     application is successful. Our team stays up-to-date with the latest immigration policies and procedures, making
                      the visa process as smooth and efficient as possible.
                 </p>
-                <p><span className='text-info'>Student Visa Consultation:</span>  We provide clear guidance on visa requirements for various countries, including 
+                <p><span className='text-info'>Student Visa Consultation :</span>  We provide clear guidance on visa requirements for various countries, including 
                     the Australia, UK, Canada  and more.
                 </p>
-                <p><span className='text-info'>Visa Application Support:</span>  Our team assists you in completing your visa application, gathering necessary documents,
+                <p><span className='text-info'>Visa Application Support :</span>  Our team assists you in completing your visa application, gathering necessary documents,
                      and preparing for interviews
                 </p>
                 <p> <span className='text-info'>  Visa Approval Follow-up :</span> We monitor the progress of your visa application and provide assistance in case any
@@ -72,7 +72,47 @@ const Services = () => {
                 </p>
             </div>
             <div className='col-md-6 mt-3'>
-
+                <img className='img-fluid' src="" alt="" />
+            </div>
+        </div>
+        <div className='row '>
+            <div className='col-md-6 mt-3'>
+                <img className='img-fluid' src="" alt="" />
+            </div>
+            <div className='col-md-6 mt-3'>
+                <Title subTitle="Document Review & Application Support"/>
+                <p>Submitting accurate and complete documents is essential to the success of your application. We offer comprehensive support
+                    in reviewing and preparing all your documentation for university applications and visa submissions.
+                </p>
+                <p><span className='text-info'>Document Checklist :</span> We provide a detailed checklist of required documents for university
+                     applications and visa processes.
+                </p>
+                <p><span className='text-info'>Document Review :</span>  Our experts review your academic transcripts, recommendation letters,
+                     personal statement, and other documents to ensure they meet the requirements.
+                </p>
+                <p> <span className='text-info'>Application Submission :</span> We ensure that your applications are submitted on time and to the
+                     correct institutions or immigration authorities.
+                </p>
+            </div>
+        </div>
+        <div className='row '>
+            <div className='col-md-6 mt-3'>
+                <Title subTitle="Career Counseling"/>
+                <p> Studying abroad is not just about academics—it's also about building your future career. Our career counseling services are
+                    designed to help you plan your academic journey with a clear focus on your career goals.
+                </p>
+                <p><span className='text-info'>Career Path Guidance :</span> We help you identify career options and offer advice on how to align
+                     your studies with your professional aspirations.
+                </p>
+                <p><span className='text-info'>Internship & Job Search :</span>  For students planning to work abroad after their studies, we
+                     provide guidance on finding internships or job opportunities in your field of study.
+                </p>
+                <p> <span className='text-info'>Post-Graduation Advice :</span> Our team offers insights into post-graduation work options,
+                 including visa pathways and job markets in different countries.
+                </p>
+            </div>
+            <div className='col-md-6 mt-3'>
+                <img className='img-fluid' src="" alt="" />
             </div>
         </div>
         

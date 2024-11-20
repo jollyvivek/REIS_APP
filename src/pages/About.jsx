@@ -8,7 +8,7 @@ const About = () => {
         <div className='row'>
             <div className='col-md-6 mt-3'>
                 <h3>Hi, I am <span className='text-info'>Henna Gupta</span> Founder and CEO of Rhombus Eduction and Immigration Service.</h3>
-                <p className='mb-3'>Over 13 years of experience in the education and immigration field. Trusted certifications from the British Council and ICEF.</p>
+                <p className='mb-3'>Over 15 years of experience in the education and immigration field. Trusted certifications from the British Council and ICEF.</p>
                 <p className='mb-3'>Welcome to Rhombus Education and Immigration Services, where we guide you toward achieving your academic and
                     professional dreams abroad.Our mission is to empower individuals with personalized
                     education and immigration solutions.
