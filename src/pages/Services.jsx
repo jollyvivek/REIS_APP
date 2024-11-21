@@ -115,6 +115,66 @@ const Services = () => {
                 <img className='img-fluid' src="" alt="" />
             </div>
         </div>
+        <div className='row '>
+            <div className='col-md-6 mt-3'>
+                <img className='img-fluid' src="" alt="" />
+            </div>
+            <div className='col-md-6 mt-3'>
+                <Title subTitle="Consultancy for Education Agents"/>
+                <p>We also offer dedicated support for education agents who assist students in applying to universities abroad. Our expert team
+                     provides end-to-end solutions for agents, ensuring a smooth experience for both agents and their clients.
+                </p>
+                <p><span className='text-info'>Agent Training & Support :</span> We offer training and resources to education agents to help 
+                    them stay updated on the latest trends in the education and immigration sectors.
+                </p>
+                <p><span className='text-info'>Application Management :</span>  Our team can handle the entire application process on behalf of
+                     agents, ensuring that their clients' applications are managed efficiently.
+                </p>
+                <p> <span className='text-info'>Visa & Documentation Assistance :</span> We assist education agents in managing student visa 
+                    applications, providing them with the expertise and resources to ensure the best possible outcome.
+                </p>
+            </div>
+        </div>
+        <div className='row '>
+            <div className='col-md-6 mt-3'>
+                <Title subTitle="Pre-departure Briefing"/>
+                <p> Preparing for life abroad involves more than just academics and visas—it’s also about adjusting to a new culture and
+                     environment. Our pre-departure briefing ensures you are fully prepared for your experience abroad.
+                </p>
+                <p><span className='text-info'>Cultural Orientation :</span> We provide essential information about life in your host country,
+                 including culture, lifestyle, and practical tips for adjusting to life as an international student.
+                </p>
+                <p><span className='text-info'>Accommodation Assistance :</span>  We help you find suitable accommodation options, whether 
+                    on-campus or private, ensuring a comfortable living arrangement during your studies.
+                </p>
+                <p> <span className='text-info'>Travel and Insurance Guidance :</span> Our team provides advice on travel arrangements, medical
+                     insurance, and any other pre-departure necessities.
+                </p>
+            </div>
+            <div className='col-md-6 mt-3'>
+                <img className='img-fluid' src="" alt="" />
+            </div>
+        </div>
+        <div className='row '>
+            <div className='col-md-6 mt-3'>
+                <img className='img-fluid' src="" alt="" />
+            </div>
+            <div className='col-md-6 mt-3'>
+                <Title subTitle="Post-arrival Support"/>
+                <p>Our relationship with you doesn’t end once you arrive in your destination country. We offer ongoing support to ensure your
+                     transition is as smooth as possible.
+                </p>
+                <p><span className='text-info'>Arrival Assistance :</span> We offer assistance with airport pickup, settling in, and other
+                     immediate needs upon arrival.
+                </p>
+                <p><span className='text-info'>Orientation Services :</span>  Our team helps you navigate the first few weeks abroad, ensuring
+                     you are familiar with local services, transportation, and academic expectations.
+                </p>
+                <p> <span className='text-info'>Ongoing Support :</span> We are always available to assist with any issues you might face during
+                     your stay, from academic challenges to visa extensions and more.
+                </p>
+            </div>
+        </div>
         
         
         
