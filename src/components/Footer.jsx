@@ -1,4 +1,5 @@
 import React from 'react'
+import '../styles/style.css'
 import logo from '../assets/svg (1).svg'
 import { FaPhoneVolume } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
@@ -29,12 +30,12 @@ const Footer = () => {
             <h4 className=' py-2 fs-4'>GET IN TOUCH</h4>
             <p className='m-0 mb-1 d-flex gap-3 fs-5'><span className='media-icon'><FaPhoneVolume /></span><span>8826841955</span></p>
             <p className='m-0 mb-1 d-flex gap-3 fs-5'><span className='media-icon'><IoIosMail /></span><span>heena@rhombuseducation.com</span></p>
-            <div className='media-cont d-flex gap-2'>
-              <span className='media-icon '><FaFacebookF /></span>
-              <span className='media-icon '><FaInstagramSquare /></span>
-              <span className='media-icon '><FaWhatsapp /></span>
-              <span className='media-icon '><FaLinkedin /></span>
-              <span className='media-icon '><FaTwitter /></span>
+            <div className='media-cont d-flex gap-2 align-items-center'>
+              <Link to="https://www.google.com/" target='_blank' className='media-icon'><FaFacebookF /></Link>
+              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaInstagramSquare /></Link>
+              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaWhatsapp /></Link>
+              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaLinkedin /></Link>
+              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaTwitter /></Link>
             </div>
         </div>
       </div>  
