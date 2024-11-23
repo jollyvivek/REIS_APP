@@ -25,11 +25,11 @@ const Navbar = () => {
             <img className='logo' src={Logo} alt="logo" onClick={()=>navigate('/')} />
          </div>
           <div className={`menu-cont ${mobileMenu ? "":"mobile-menu"}`}>
-            <Link to="/" className='nav-link'>Home</Link>
-            <Link to="/about" className='nav-link'>About</Link>
-            <Link to="/services" className='nav-link'>Service</Link>
-            <Link className='nav-link'>Galery</Link>
-            <Link to="/contact" className='nav-link'>Contact</Link>
+            <Link to="/" className='nav-link'>HOME</Link>
+            <Link to="/about" className='nav-link'>ABOUT</Link>
+            <Link to="/services" className='nav-link'>SERVICES</Link>
+            <Link to="/faq" className='nav-link'>FAQ</Link>
+            <Link to="/contact" className='nav-link'>CONTACT</Link>
           </div>
           <div className='HamberMenu-cont'>
                 <span className='Hamber-menu fs-1' onClick={HamberMenuHandler}><TiThMenu /></span>
