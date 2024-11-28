@@ -31,10 +31,10 @@ const Footer = () => {
             <p className='m-0 mb-1 d-flex gap-3 fs-5'><span className='media-icon'><FaPhoneVolume /></span><span>8826841955</span></p>
             <p className='m-0 mb-1 d-flex gap-3 fs-5'><span className='media-icon'><IoIosMail /></span><span>heena@rhombuseducation.com</span></p>
             <div className='media-cont d-flex gap-2 align-items-center'>
-              <Link to="https://www.google.com/" target='_blank' className='media-icon'><FaFacebookF /></Link>
+              <Link to="https://www.linkedin.com/in/heena-gupta-024a0b116" target='_blank' className='media-icon '><FaLinkedin /></Link>
+              <Link to="https://www.facebook.com/share/qfxAkL5cNakJRXYe/?mibextid=LQQJ4d" target='_blank' className='media-icon'><FaFacebookF /></Link>
               <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaInstagramSquare /></Link>
-              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaWhatsapp /></Link>
-              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaLinkedin /></Link>
+              {/* <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaWhatsapp /></Link> */}
               <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaTwitter /></Link>
             </div>
         </div>

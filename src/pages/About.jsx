@@ -1,12 +1,12 @@
 import React from 'react'
-import profileImg from '../assets/AboutImage.jpeg'
+import profileImg from '../assets/AboutImage3.jpg'
 import Title from '../components/Title'
 
 const About = () => {
   return (
     <div className='container-fluid mt-3'>
         <div className='row'>
-            <div className='col-md-6 mt-3'>
+            <div className='col-md-6 mt-3 d-flex flex-column justify-content-center align-items-center'>
                 <h3>Hi, I am <span className='text-info'>Henna Gupta</span> Founder and CEO of Rhombus Eduction and Immigration Service.</h3>
                 <p className='mb-3'>Over 15 years of experience in the education and immigration field. Trusted certifications from the British Council and ICEF.</p>
                 <p className='mb-3'>Welcome to Rhombus Education and Immigration Services, where we guide you toward achieving your academic and
@@ -26,7 +26,7 @@ const About = () => {
                 <p>Let us help you take the next step in your academic and professional journey. Contact us today to get started new journey with us .</p>
             </div>
             <div className='col-md-6 mt-3 text-center'>
-                <img className='img-fluid rounded-4' src={profileImg} alt="" />
+                <img className='img-fluid rounded-4 w-75' src={profileImg} alt="" />
             </div>
             {/* history */}
             <div className='row'>
