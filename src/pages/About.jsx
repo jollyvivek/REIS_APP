@@ -1,5 +1,5 @@
 import React from 'react'
-import profileImg from '../assets/AboutImage3.jpg'
+import profileImg from '../assets/ProfileImage.jpeg'
 import Title from '../components/Title'
 
 const About = () => {
@@ -26,7 +26,7 @@ const About = () => {
                 <p>Let us help you take the next step in your academic and professional journey. Contact us today to get started new journey with us .</p>
             </div>
             <div className='col-md-6 mt-3 text-center'>
-                <img className='img-fluid rounded-4 w-75' src={profileImg} alt="" />
+                <img className='img-fluid rounded-4' src={profileImg} alt="" />
             </div>
             {/* history */}
             <div className='row'>

@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Title from '../components/Title'
 import ContactUsBanner from '../assets/contactUsImg.jpg'
 import { IoMailOpen } from "react-icons/io5";
@@ -7,6 +7,31 @@ import { FaPhoneVolume } from "react-icons/fa6";
 import { FaLocationDot } from "react-icons/fa6";
 
 const Contact = () => {
+
+    const [result, setResult] = React.useState("");
+
+    const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+    
+        formData.append("access_key", "8012c811-6460-427f-a978-5f025ee6d254");
+    
+        const response = await fetch("https://api.web3forms.com/submit", {
+          method: "POST",
+          body: formData
+        });
+    
+        const data = await response.json();
+    
+        if (data.success) {
+          setResult("Form Submitted Successfully");
+          event.target.reset();
+        } else {
+          console.log("Error", data);
+          setResult(data.message);
+        }
+      };
   return (
     <div className='container-fluid'>
         <div className='row'>
@@ -45,28 +70,29 @@ const Contact = () => {
 
             </div>
             <div className='col-md-6'>
-                <form action="">
+                <form action="" onSubmit={onSubmit}>
                     <div className="my-2 ">
                         <label htmlFor="UserName" className="form-label">Name :</label>
-                        <input type="email" className="form-control" id="UserName" placeholder="Enter Your Name"/>
+                        <input type="text" className="form-control" id="UserName" name='UserName' autoComplete="off" placeholder="Enter Your Name" required/>
                     </div>
                     <div className="my-2">
                         <label htmlFor="Phone" className="form-label">Phone  :</label>
-                        <input type="number" className="form-control" id="Phone" placeholder="Enter Your Phone Number"/>
+                        <input type="number" className="form-control" id="Phone" name='Phone' autoComplete="off" placeholder="Enter Your Phone Number" required/>
                     </div>
                     <div className="my-2">
                         <label htmlFor="Email" className="form-label">Email :</label>
-                        <input type="email" className="form-control" id="Email" placeholder="Enter Your Email Id"/>
+                        <input type="email" className="form-control" id="Email" name='Email'  autoComplete="off"  placeholder="Enter Your Email Id" required/>
                     </div>
                     <div className="my-2">
-                        <label htmlFor="exampleFormControlTextarea1" className="form-label">Message :</label>
-                        <textarea className="form-control" id="Message" rows="3" placeholder='Message Here'></textarea>
+                        <label htmlFor="Message" className="form-label">Message :</label>
+                        <textarea className="form-control" id="Message" name='Message' autoComplete="off" rows="3" placeholder='Message Here' required></textarea>
                     </div>
                     <div className='my-3 text-end'>
-                        <button type='button' className='btn btn-primary px-3 '> SUBMIT</button>
+                        <button type='submit' className='btn btn-primary px-3 '> SUBMIT</button>
                     </div>
 
                     </form>
+                    <span className="send-msg ">{result}</span>
             </div>
         </div>
 
