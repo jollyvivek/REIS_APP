@@ -29,8 +29,8 @@ const About = () => {
                 <img className='img-fluid rounded-4' src={profileImg} alt="" />
             </div>
             {/* history */}
-            <div className='row'>
-                <div className='col-md-12'>
+            <div className='row mt-3'>
+                <div className='col-md-12 mt-3'>
                     <Title title="HISTORY" subTitle="ABOUT COMPANY HISTORY"/>
                     <p className='history-desc'>Founded by <span className='text-info fw-bold'>Heena Gupta</span>, a professional with over 15 years of experience
                         in international education and student visa consultancy,Rhombus Education and Immigration Services was born out of 
@@ -46,7 +46,7 @@ const About = () => {
             </div>
             {/* mission */}
             <div className='row'>
-                <div className='col-md-12'>
+                <div className='col-md-12 mt-3'>
                     <Title title="MISSON" subTitle="OUR COMPANY MISSION"/>
                     <p className='history-desc'>Our mission is simple: to guide students toward a brighter future by making studying abroad an 
                         achievable and exciting opportunity. We understand the significance of studying internationally and the impact it has 
@@ -61,7 +61,7 @@ const About = () => {
             </div>
             {/* out team */}
             <div className='row'>
-                <div className='col-md-12'>
+                <div className='col-md-12 mt-3'>
                     <Title title="TEAM" subTitle="OUR COMPANY TEAM"/>
                     <p className='history-desc'>Our team consists of experienced education consultants, visa specialists, and support staff,
                          all dedicated to providing exceptional service. Each member of our team shares a passion for education and an 
@@ -75,7 +75,7 @@ const About = () => {
             </div>
             {/* Why choose Us */}
             <div className='row '>
-                <div className='col-md-12'>
+                <div className='col-md-12 mt-3'>
                     <Title title="WHY CHOOSE US ?" subTitle=""/>
                     <p className='history-desc'>Over 15 years of expertise in the education and immigration field.
                         Personalized, one-on-one consultation to cater to each student's unique needs.

@@ -7,7 +7,6 @@ import { FaFacebookF } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaWhatsapp } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
-import { FaTwitter } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
@@ -33,9 +32,8 @@ const Footer = () => {
             <div className='media-cont d-flex gap-2 align-items-center'>
               <Link to="https://www.linkedin.com/in/heena-gupta-024a0b116" target='_blank' className='media-icon '><FaLinkedin /></Link>
               <Link to="https://www.facebook.com/share/qfxAkL5cNakJRXYe/?mibextid=LQQJ4d" target='_blank' className='media-icon'><FaFacebookF /></Link>
-              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaInstagramSquare /></Link>
-              {/* <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaWhatsapp /></Link> */}
-              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaTwitter /></Link>
+              <Link to="https://wa.me/9541093299" target='_blank' className='media-icon '><FaWhatsapp /></Link>
+              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaInstagramSquare /></Link>              
             </div>
         </div>
       </div>  
