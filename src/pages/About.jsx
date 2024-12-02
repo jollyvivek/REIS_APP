@@ -7,14 +7,14 @@ const About = () => {
     <div className='container-fluid mt-3'>
         <div className='row'>
             <div className='col-md-6 mt-3 d-flex flex-column justify-content-center align-items-center'>
-                <h3>Hi, I am <span className='text-info'>Henna Gupta</span> Founder and CEO of Rhombus Eduction and Immigration Service.</h3>
+                <h3>Hi, I am <span className='text-info'>Heena Gupta</span> Founder and CEO of Rhombus Eduction and Immigration Service.</h3>
                 <p className='mb-3'>Over 15 years of experience in the education and immigration field. Trusted certifications from the British Council and ICEF.</p>
                 <p className='mb-3'>Welcome to Rhombus Education and Immigration Services, where we guide you toward achieving your academic and
-                    professional dreams abroad.Our mission is to empower individuals with personalized
+                    professional dreams abroad. Our mission is to empower individuals with personalized
                     education and immigration solutions.
                 </p>
                 <p className='mb-3'> At Rhombus, we believe in a holistic approach to education and career planning. Whether you're aspiring to study
-                    at a prestigious university or seeking immigration opportunities, our expert team is dedicated to providing clear
+                    at a prestigious university or seeking immigration opportunities, our expert team is dedicated to provide clear
                     guidance and unwavering support throughout your journey.
                 </p>
                 <p className='mb-3'>With a focus on transparency, trust, and tailored services, we have helped countless students and professionals 
@@ -26,20 +26,20 @@ const About = () => {
                 <p>Let us help you take the next step in your academic and professional journey. Contact us today to get started new journey with us .</p>
             </div>
             <div className='col-md-6 mt-3 text-center'>
-                <img className='img-fluid rounded-4' src={profileImg} alt="" />
+                <img className='img-fluid rounded-4 h-75' src={profileImg} alt="" />
             </div>
             {/* history */}
             <div className='row mt-3'>
                 <div className='col-md-12 mt-3'>
-                    <Title title="HISTORY" subTitle="ABOUT COMPANY HISTORY"/>
+                    <Title title=" OUR HISTORY" />
                     <p className='history-desc'>Founded by <span className='text-info fw-bold'>Heena Gupta</span>, a professional with over 15 years of experience
-                        in international education and student visa consultancy,Rhombus Education and Immigration Services was born out of 
+                        in international education and student visa consultancy, Rhombus Education and Immigration Services was born out of 
                         a desire to make the study-abroad process easier and more accessible for students worldwide. Over the years, we have
-                         successfully assisted countless students in securing placements in top universities across the Australia,UK, Canada,
-                         Europe and more, while ensuring they receive the proper guidance and support throughout their visa application process.
+                         successfully assisted countless students in securing placements in top universities across the Australia, UK, Canada,
+                         Europe and many other countries across the globe, while ensuring they receive the proper guidance and support throughout their visa application process.
                     </p>
                     <p className='history-desc'>Our team has grown with the times, constantly updating our practices to stay ahead of evolving immigration regulations 
-                        and educational trends.With certifications from both the British Council, we are proud to be a trusted partner for both
+                        and educational trends. With certification from ICEF, we are proud to be a trusted partner for both
                         students and education agents.
                     </p>
                 </div>
@@ -47,7 +47,7 @@ const About = () => {
             {/* mission */}
             <div className='row'>
                 <div className='col-md-12 mt-3'>
-                    <Title title="MISSON" subTitle="OUR COMPANY MISSION"/>
+                    <Title title="OUR MISSON" />
                     <p className='history-desc'>Our mission is simple: to guide students toward a brighter future by making studying abroad an 
                         achievable and exciting opportunity. We understand the significance of studying internationally and the impact it has 
                         on personal and professional growth. With a focus on personalized care and expert consultancy, we are dedicated to 
@@ -62,7 +62,7 @@ const About = () => {
             {/* out team */}
             <div className='row'>
                 <div className='col-md-12 mt-3'>
-                    <Title title="TEAM" subTitle="OUR COMPANY TEAM"/>
+                    <Title title="TEAM" />
                     <p className='history-desc'>Our team consists of experienced education consultants, visa specialists, and support staff,
                          all dedicated to providing exceptional service. Each member of our team shares a passion for education and an 
                          unwavering commitment to client success. We work collaboratively to ensure that every student receives the best

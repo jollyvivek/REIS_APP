@@ -32,8 +32,8 @@ const Footer = () => {
             <div className='media-cont d-flex gap-2 align-items-center'>
               <Link to="https://www.linkedin.com/in/heena-gupta-024a0b116" target='_blank' className='media-icon '><FaLinkedin /></Link>
               <Link to="https://www.facebook.com/share/qfxAkL5cNakJRXYe/?mibextid=LQQJ4d" target='_blank' className='media-icon'><FaFacebookF /></Link>
-              <Link to="https://wa.me/9541093299" target='_blank' className='media-icon '><FaWhatsapp /></Link>
-              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaInstagramSquare /></Link>              
+              {/* <Link to="https://wa.me/8826841955" target='_blank' className='media-icon '><FaWhatsapp /></Link>
+              <Link to="https://www.google.com/" target='_blank' className='media-icon '><FaInstagramSquare /></Link>               */}
             </div>
         </div>
       </div>  

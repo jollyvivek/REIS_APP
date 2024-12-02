@@ -16,8 +16,9 @@
 
 .logo{
   width: 100%;
-  max-width:20rem;
+  max-width:30rem;
   cursor: pointer;
+  /* border:2px solid red; */
 }
 
 .logoText{

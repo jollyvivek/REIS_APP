@@ -42,7 +42,7 @@ const Faq = () => {
                      a detailed list based on your country of study.
                 </p>
                 <p className='w-75 m-auto mt-2'>Do I need to pass an English language test for a student visa? Most countries require English
-                     proficiency tests like IELTS or TOEFL. We can help you understand the specific requirements of each country.
+                     proficiency tests like IELTS, PTE or TOEFL. We can help you understand the specific requirements of each country.
                 </p>
                 <p className='w-75 m-auto mt-2'>Does Rhombus assist with visa interviews? Yes, we offer interview preparation services,
                      helping you understand what to expect and practicing questions that may be asked by visa officers.
@@ -109,10 +109,6 @@ const Faq = () => {
         <div className='row'>
             <div className='col-md-12 mt-3'>
                 <Title title="Miscellaneous FAQs"/>
-                <p className='w-75 m-auto'>What if I have a criminal record? Can I still apply for a visa? Having a criminal record may impact
-                     your eligibility, depending on the visa type and destination. We can help assess your options and advise on possible 
-                     solutions.
-                </p>
                 <p className='w-75 m-auto mt-2'>Can Rhombus assist with visas for family members? Yes, we offer support for family visas, 
                     including spouse, dependent, and parent visas, based on the destination country’s regulations.
                 </p>

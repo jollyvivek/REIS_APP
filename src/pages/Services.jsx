@@ -13,8 +13,8 @@ const Services = () => {
                     navigate the complexities of studying abroad. Whether you are just starting your journey or need assistance with the
                      final steps, we are here to provide expert guidance every step of the way.
                 </p>
-                <p><span className='text-info'>Student Visa Assistance :</span>  Expert guidance on visa applications for studying in the UK,
-                 Canada, Australia, and more.
+                <p><span className='text-info'>Student Visa Assistance :</span>  Expert guidance on visa applications for studying in the Australia, UK,
+                 Canada and many other countries across the globe.
                 </p>
                 <p><span className='text-info'> University Placement :</span>  Helping students choose the right institution based on their goals 
                     and academic profile.
@@ -108,9 +108,6 @@ const Services = () => {
                 </p>
                 <p className='w-75 m-auto mt-2'><span className='text-info'>Career Path Guidance :</span> We help you identify career options and offer advice on how to align
                      your studies with your professional aspirations.
-                </p>
-                <p className='w-75 m-auto mt-2'><span className='text-info'>Internship & Job Search :</span>  For students planning to work abroad after their studies, we
-                     provide guidance on finding internships or job opportunities in your field of study.
                 </p>
                 <p className='w-75 m-auto mt-2'> <span className='text-info'>Post-Graduation Advice :</span> Our team offers insights into post-graduation work options,
                  including visa pathways and job markets in different countries.
