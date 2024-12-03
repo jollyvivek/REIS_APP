@@ -1,5 +1,5 @@
 import React from 'react'
-import WelcomeImg from '../assets/welcomeImg.webp'
+import WelcomeImg from '../assets/welcome_imge.jpg'
 import { useNavigate } from 'react-router-dom'
 import AustraliaFlag from '../assets/australia.png'
 import UKFlag from '../assets/united-kingdom.png'

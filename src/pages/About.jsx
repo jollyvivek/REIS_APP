@@ -26,7 +26,7 @@ const About = () => {
                 <p>Let us help you take the next step in your academic and professional journey. Contact us today to get started new journey with us .</p>
             </div>
             <div className='col-md-6 mt-3  text-center'>
-                <img className='img-fluid rounded-4 h-75' src={profileImg} alt="image" />
+                <img className='img-fluid rounded-4' style={{height:"85%"}} src={profileImg} alt="image" />
             </div>
            
         </div>
