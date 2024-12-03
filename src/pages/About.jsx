@@ -25,11 +25,13 @@ const About = () => {
                 </p>
                 <p>Let us help you take the next step in your academic and professional journey. Contact us today to get started new journey with us .</p>
             </div>
-            <div className='col-md-6 mt-3 text-center'>
-                <img className='img-fluid rounded-4 h-75' src={profileImg} alt="" />
+            <div className='col-md-6 mt-3  text-center'>
+                <img className='img-fluid rounded-4 h-75' src={profileImg} alt="image" />
             </div>
-            {/* history */}
-            <div className='row mt-3'>
+           
+        </div>
+         {/* history */}
+         <div className='row mt-3'>
                 <div className='col-md-12 mt-3'>
                     <Title title=" OUR HISTORY" />
                     <p className='history-desc'>Founded by <span className='text-info fw-bold'>Heena Gupta</span>, a professional with over 15 years of experience
@@ -87,7 +89,6 @@ const About = () => {
                     </p>
                 </div>
             </div>
-        </div>
     </div>
   )
 }

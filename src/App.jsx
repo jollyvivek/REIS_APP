@@ -12,7 +12,7 @@ import Faq from './pages/Faq'
 
 const App = () => {
   return (
-    <div className=''>
+    <div className='app'>
         <Navbar/>
         {/* <Hero/> */}
     <div>

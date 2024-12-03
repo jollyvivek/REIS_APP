@@ -1,6 +1,12 @@
 import React from 'react'
 import WelcomeImg from '../assets/welcomeImg.webp'
 import { useNavigate } from 'react-router-dom'
+import AustraliaFlag from '../assets/australia.png'
+import UKFlag from '../assets/united-kingdom.png'
+import NewzealandFlag from '../assets/new-zealand.png'
+import CanadaFlag from '../assets/canada.png'
+import USAFlag from '../assets/USA-Flag.png'
+import GermanyFlag from '../assets/germany.png'
 
 const Home = () => {
     const navigate = useNavigate()
@@ -16,6 +22,14 @@ const Home = () => {
                       delivering exceptional service and personalized solutions for students and education agents
                      worldwide.
                 </p>
+                <div className='row'>
+                  <div className='col-md-2'><img src={AustraliaFlag} className='img-fluid' alt="AustraliaFlag" /></div>
+                  <div className='col-md-2'><img src={UKFlag} className='img-fluid' alt="UKFlag" /></div>
+                  <div className='col-md-2'><img src={NewzealandFlag} className='img-fluid' alt="NewzealandFlag" /></div>
+                  <div className='col-md-2'><img src={CanadaFlag} className='img-fluid' alt="CanadaFlag" /></div>
+                  <div className='col-md-2'><img src={USAFlag} className='img-fluid' alt="USAFlag" /></div>
+                  <div className='col-md-2'><img src={GermanyFlag} className='img-fluid' alt="GermanyFlag" /></div>
+                </div>
                 <div className='home-btn-con d-flex gap-3'>
                     <button className='btn  btn-dark home-btn' onClick={()=>navigate('/contact')}>Study Visa</button>
                     <button className='btn btn-dark home-btn' onClick={()=>navigate('/contact')}>Tourist Visa</button>
