@@ -22,20 +22,20 @@ const Home = () => {
                       delivering exceptional service and personalized solutions for students and education agents
                      worldwide.
                 </p>
-                <div className='row'>
-                  <div className='col-md-2'><img src={AustraliaFlag} className='img-fluid' alt="AustraliaFlag" /></div>
-                  <div className='col-md-2'><img src={UKFlag} className='img-fluid' alt="UKFlag" /></div>
-                  <div className='col-md-2'><img src={NewzealandFlag} className='img-fluid' alt="NewzealandFlag" /></div>
-                  <div className='col-md-2'><img src={CanadaFlag} className='img-fluid' alt="CanadaFlag" /></div>
-                  <div className='col-md-2'><img src={USAFlag} className='img-fluid' alt="USAFlag" /></div>
-                  <div className='col-md-2'><img src={GermanyFlag} className='img-fluid' alt="GermanyFlag" /></div>
+                <div className='row my-2'>
+                  <div className='col-md-2 text-center'><img src={AustraliaFlag} className='img-fluid w-75' alt="AustraliaFlag" /></div>
+                  <div className='col-md-2 text-center'><img src={UKFlag} className='img-fluid w-75' alt="UKFlag" /></div>
+                  <div className='col-md-2 text-center'><img src={NewzealandFlag} className='img-fluid w-75' alt="NewzealandFlag" /></div>
+                  <div className='col-md-2 text-center'><img src={CanadaFlag} className='img-fluid w-75' alt="CanadaFlag" /></div>
+                  <div className='col-md-2 text-center'><img src={USAFlag} className='img-fluid w-75' alt="USAFlag" /></div>
+                  <div className='col-md-2 text-center'><img src={GermanyFlag} className='img-fluid w-75' alt="GermanyFlag" /></div>
                 </div>
                 <div className='home-btn-con d-flex gap-3'>
                     <button className='btn  btn-dark home-btn' onClick={()=>navigate('/contact')}>Study Visa</button>
                     <button className='btn btn-dark home-btn' onClick={()=>navigate('/contact')}>Tourist Visa</button>
                 </div>
             </div>
-            <div className='col-md-6 mt-3'>
+            <div className='col-md-6 mt-5'>
                 <img className='img-fluid rounded-3' src={WelcomeImg} alt="" />
             </div>
       </div>
